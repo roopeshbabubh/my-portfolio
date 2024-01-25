@@ -1,0 +1,72 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center the container horizontally */
+    justify-content: center; /* Center the container vertically */
+}
+
+.section-title h2 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #61677A;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: crimson;
+    margin: 4px 10px;
+}
+
+.scroll-bar {
+    overflow-y: auto;
+    white-space: normal;
+    padding: 10px;
+    height: 500px;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 18px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background-color: crimson;
+    box-shadow: 2px 3px 3px #4c4a4a;
+    border: 2px solid #fff;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(189, 6, 42);
+    box-shadow: 4px 6px 6px #4c4a4a;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+    background-color: #f8f9fa;
+    box-shadow: 4px 4px 4px #4c4a4a;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.project-item {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 3px 3px #4c4a4a;
+}

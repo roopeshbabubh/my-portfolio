@@ -1,0 +1,91 @@
+.container {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    background: rgba(39, 40, 41, 0.8);
+    padding: 2rem;
+    color: white;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: crimson;
+    margin: 4px 10px;
+}
+
+.section-title h2 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #61677A;
+}
+
+.gold-text {
+    font-weight: bold;
+    font-size: 50px;
+    background-image: linear-gradient(to right,
+            #4f2c2a 0,
+            #cb9b51 22%,
+            #f6e27a 45%,
+            #f6f2c0 50%,
+            #f6e27a 55%,
+            #cb9b51 78%,
+            #462523 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+svg {
+    border-radius: 25%;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: #2C3333;
+}
+
+h3 {
+    color: #7e7e7e;
+}
+
+.social-link {
+    text-decoration: none;
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    color: crimson;
+    background: none;
+}
+
+button {
+    text-decoration: none;
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: crimson;
+    background: none;
+}
+
+.text-color::placeholder, :required {
+    font-weight: 700;
+    color: crimson;
+}

@@ -1,0 +1,45 @@
+.section-title h2::after {
+    content: "";
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: crimson;
+    margin: 4px 10px;
+}
+
+.section-title h2 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #61677A;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.progress-border {
+    border: 3px solid crimson;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+
+.progress {
+    background-color: crimson;
+}
+
+.bg-color {
+    background-image: linear-gradient(to right,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%);
+    box-shadow: 0 0 20px rgba(203, 155, 81, 0.5);
+}

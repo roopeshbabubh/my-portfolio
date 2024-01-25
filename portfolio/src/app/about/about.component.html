@@ -1,0 +1,39 @@
+<div class="container">
+
+  <div class="row featurette mb-5">
+    <div class="section-title">
+      <h2>About</h2>
+      <p class="gold-text">Learn more about me</p>
+    </div>
+
+    <div class="col-md img-card">
+      <img src="https://assets.novels.gg/novels/01HDS6K7YDQY5PX2JDSAQ755M2/thumb-600x800.webp" class="about-img"
+        alt="profile Image">
+    </div>
+
+    <div class="col-lg-8 pt-4 pt-lg-0 content order-md-2 mt-4">
+
+      <h3><span class="typing-2"></span></h3>
+
+      <p class="fst-italic custom-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora ullam minima quisquam omnis,
+        explicabo dolor nihil. Repudiandae tempora ullam minima quisquam omnis, explicabo dolor nihil.
+      </p>
+
+      <div class="row">
+        <div class="col-lg-6" *ngFor="let info of infoList.slice(0, infoList.length / 2)">
+          <ul class="custom-text">
+            <li class="arrow-icon"><strong>{{ info.label }}:</strong> <span class="info">{{ info.value }}</span></li>
+          </ul>
+        </div>
+        <div class="col-lg-6" *ngFor="let info of infoList.slice(infoList.length / 2)">
+          <ul class="custom-text">
+            <li class="arrow-icon"><strong>{{ info.label }}:</strong> <span class="info">{{ info.value }}</span></li>
+          </ul>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <app-skills></app-skills>
+  <app-carousel></app-carousel>
+</div>

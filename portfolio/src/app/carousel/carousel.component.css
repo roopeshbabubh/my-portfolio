@@ -1,0 +1,99 @@
+.section-title h2 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #61677A;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: crimson;
+    margin: 4px 10px;
+}
+
+.people .card-design {
+    border-radius: 3%;
+    padding: 40px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 20px;
+    border-color: transparent;
+}
+
+.people .card-design:hover {
+    background: crimson;
+}
+
+.people .card-design .box {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.img-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.review {
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: white;
+    border: 8px solid;
+    border-image: linear-gradient(to right,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%) 1;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(203, 155, 81, 0.5);
+}
+
+.card-design img {
+    margin-left: 0;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 6px solid;
+    border-image: linear-gradient(to right,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%) 1;
+        box-shadow: 0 0 20px rgba(203, 155, 81, 0.5); 
+    transition: all 0.3s ease;
+}
+
+
+
+.card-design:hover .text {
+    color: white;
+}
+
+.card-design:hover img {
+    border-color: #fff;
+}
+
+.review {
+    padding: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 800;
+    color: crimson;
+}
+
+::ng-deep .p-carousel-indicators,
+::ng-deep .p-ripple {
+    display: none;
+}

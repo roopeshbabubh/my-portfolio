@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg fixed-top" [class.sticky]="isNavbarSticky">
+
+    <div class="container">
+        <div class="logo">
+            <a href="#"><span>My</span>Web<span id="gold-text">Site.</span></a>
+        </div>
+    
+        <button class="navbar-toggler btn btn-white" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="offcanvas offcanvas" tabindex="-1" id="navbarOffcanvasLg"
+            aria-labelledby="navbarOffcanvasLgLabel">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link li-item" routerLink="/home" routerLinkActive="active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link li-item" routerLink="/about" routerLinkActive="active">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link li-item" routerLink="/resume" routerLinkActive="active">Resume</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link li-item" routerLink="/projects" routerLinkActive="active">Projects</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link li-item" routerLink="/contact" routerLinkActive="active">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>

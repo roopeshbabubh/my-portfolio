@@ -1,0 +1,70 @@
+.container {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    background: rgba(39, 40, 41, 0.8);
+    padding: 2rem;
+    color: white;
+}
+
+.section-title h2 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #61677A;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: crimson;
+    margin: 4px 10px;
+}
+
+.gold-text {
+    font-weight: bold;
+    font-size: 50px;
+    background-image: linear-gradient(to right,
+            #cb9b51 22%,
+            #f6e27a 45%,
+            #f6f2c0 50%,
+            #f6e27a 55%,
+            #cb9b51 78%);
+    color: transparent;
+    background-clip: text;
+}
+
+.img-card .about-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: fill;
+}
+
+h3 {
+    font-size: 46px;
+    color: crimson;
+}
+
+.custom-text {
+    font-size: 18px;
+    list-style: none;
+}
+
+.info {
+    margin-left: 1rem;
+}
+
+strong {
+    background-image: linear-gradient(to right,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%);
+color: transparent;
+background-clip: text;
+}

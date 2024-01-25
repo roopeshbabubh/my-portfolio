@@ -1,0 +1,32 @@
+<div class="people">
+  <div class="section-title">
+    <h2>Testimonials</h2>
+  </div>
+  <p-carousel [value]="testimonials" [numVisible]="3" [numScroll]="1" [circular]="true"
+    [responsiveOptions]="responsiveOptions" [autoplayInterval]="3000">
+    <ng-template let-testimonial pTemplate="item">
+
+      <div class="card-design">
+        <div class="box">
+          <p class="review">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" id="quotes" transform="rotate(180)">
+              <path fill-rule="evenodd" d="M12 0v8h4v4h4V0h-8zM0 0h8v12H4V8H0V0z"></path>
+            </svg>
+            {{testimonial.review}}
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" id="quotes">
+              <path fill-rule="evenodd" d="M12 0v8h4v4h4V0h-8zM0 0h8v12H4V8H0V0z"></path>
+            </svg>
+          </p>
+          <div class="img-design">
+            <img src="https://assets.novels.gg/novels/01HDS6K7YDQY5PX2JDSAQ755M2/thumb-600x800.webp" alt="">
+            <div class="text">
+              <div>{{testimonial.name}}</div>
+              <p>{{testimonial.position}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </p-carousel>
+
+</div>

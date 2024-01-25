@@ -1,0 +1,19 @@
+p {
+    color: white;
+}
+
+span {
+    color: crimson;
+}
+
+.gold-text {
+    font-weight: bold;
+    background-image: linear-gradient(to right,
+            #cb9b51 22%,
+            #f6e27a 45%,
+            #f6f2c0 50%,
+            #f6e27a 55%,
+            #cb9b51 78%);
+    color: transparent;
+    background-clip: text;
+}
